@@ -48,7 +48,8 @@
     "swr": "^1.1.2",
     "transliteration": "^2.2.0",
     "twikoo": "^1.5.11",
-    "unfurl.js": "^5.6.2"
+    "unfurl.js": "^5.6.2",
+    "windicss": "^3.5.6"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^12.1.6",
