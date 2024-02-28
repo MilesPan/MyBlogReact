@@ -53,7 +53,7 @@ const Home: NextPage<{ posts: Post[] }> = ({ posts }) => {
           </Media>
         </MediaContextProvider>
       </ListLayout>
-      <PostList posts={mainPosts} />
+      {/* <PostList posts={mainPosts} /> */}
     </>
   );
 };
