@@ -17,21 +17,14 @@ import {
   WidgetOverViewSmall,
 } from "../components/widget/WidgetOverview";
 import { Media, MediaContextProvider } from "../components/utility/Breakpoints";
-import { NextSeo } from "next-seo";
 import { useRouter } from "next/router";
 import { me } from "../config/me";
-
-// type PostResult = QueryDatabaseResponse['results'][number];
-
-// export type Posts = {
-//   posts: Post[];
-// }
 
 const Home: NextPage<{ posts: Post[] }> = ({ posts }) => {
   const mainPosts = posts.slice(0, 17);
   const router = useRouter();
   const { locale } = router;
-  const description = "异次元de机智君的个人博客";
+  const description = "三两三的个人博客";
   const featuredImage = {
     url: `${me.site}/static/images/og.png`,
     alt: description,
@@ -53,7 +46,7 @@ const Home: NextPage<{ posts: Post[] }> = ({ posts }) => {
           </Media>
         </MediaContextProvider>
       </ListLayout>
-      {/* <PostList posts={mainPosts} /> */}
+      <PostList posts={mainPosts} />
     </>
   );
 };
