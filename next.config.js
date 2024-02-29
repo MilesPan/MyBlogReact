@@ -18,7 +18,6 @@ module.exports = withPlaiceholder({
     return config;
   },
   images: {
-    unoptimized: true,
     domains: [
       "s9lhotbvn.hb-bkt.clouddn.com",
       "static.anzifan.com",
