@@ -59,6 +59,7 @@ const PostPage: NextPage<{
   const router = useRouter();
   const { locale } = router;
   setToc(blocks);
+  console.log(page, blocks);
   if (!page || !blocks) {
     return (
       <>
@@ -203,7 +204,6 @@ const PostPage: NextPage<{
         ></Pagination>
       </ContentLayout>
       <ContentLayout>
-        {/* <div className="grid grid-cols-2 gap-4 md:grid-cols-2"> */}
         <div className="hidden grid-cols-2 gap-4 sm:grid md:grid-cols-2">
           <WidgetMeMedium fix={true} />
           <WidgetOverViewMedium posts={posts} fix={true} />
@@ -212,17 +212,6 @@ const PostPage: NextPage<{
           <WidgetMeSmall />
           <WidgetOverViewSmall posts={posts} />
         </div>
-        {/* </div> */}
-        {/* <MediaContextProvider >
-                    <Media greaterThanOrEqual="sm" className="grid grid-cols-2 gap-4 md:grid-cols-2">                       
-                        <WidgetMeMedium fix={true} />
-                        <WidgetOverViewMedium posts={posts} fix={true} />
-                    </Media>
-                    <Media lessThan="sm" className="grid grid-cols-2 gap-2">                        
-                        <WidgetMeSmall />
-                        <WidgetOverViewSmall posts={posts} />
-                    </Media>
-                </MediaContextProvider> */}
       </ContentLayout>
       <ContentLayout>
         <Comment />

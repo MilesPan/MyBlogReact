@@ -25,6 +25,7 @@ module.exports = withPlaiceholder({
       "cdn.dribbble.com",
       "image.freepik.com",
       "avatars.githubusercontent.com",
+      "prod-files-secure.s3.us-west-2.amazonaws.com",
       "cdn.jsdelivr.net",
       "image.cugxuan.cn",
       "blog-static.mikuchan.top",
