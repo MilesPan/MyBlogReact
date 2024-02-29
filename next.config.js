@@ -18,7 +18,9 @@ module.exports = withPlaiceholder({
     return config;
   },
   images: {
+    unoptimized: true,
     domains: [
+      "s9lhotbvn.hb-bkt.clouddn.com",
       "static.anzifan.com",
       "cdn.sspai.com",
       "cdn.dribbble.com",
@@ -31,6 +33,7 @@ module.exports = withPlaiceholder({
       "img.zhheo.com",
       "www.aohuiliu.fun",
       "rxhsk.xicp.fun",
+      "www.notion.so",
       "www.fomal.cc",
     ],
   },

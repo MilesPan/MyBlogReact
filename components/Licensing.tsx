@@ -59,7 +59,7 @@ const Licensing = (post: { page: Post }) => {
   const config: any = {
     作者: (
       <Link href={"/me"}>
-        <a>安子璠</a>
+        <a>潘冬源</a>
       </Link>
     ),
     分布于: (
