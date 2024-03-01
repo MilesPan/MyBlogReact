@@ -59,7 +59,6 @@ const PostPage: NextPage<{
   const router = useRouter();
   const { locale } = router;
   setToc(blocks);
-  console.log(page, blocks);
   if (!page || !blocks) {
     return (
       <>
