@@ -1,44 +1,47 @@
-import { FC, useEffect, useRef, useState } from 'react'
-import cloudbase from '@cloudbase/js-sdk';
-import { useRouter } from 'next/router';
+import { FC, useEffect } from "react";
+import cloudbase from "@cloudbase/js-sdk";
+import { useRouter } from "next/router";
 
+const twikooEnvId = "https://blog-twikoo-iota.vercel.app";
 const TwikooComponent: FC = () => {
-    const router = useRouter()
-    const initTwikoo = () => {
-        cloudbase
-        const twikoo = require('twikoo/dist/twikoo.min')
-        twikoo.init({
-            envId: 'twikoo-7gjtx7whfd732c11',
-            el: '#twikoo',
-        })
+  const router = useRouter();
+  const initTwikoo = () => {
+    cloudbase;
+    const twikoo = require("twikoo/dist/twikoo.min");
+    twikoo.init({
+      envId: twikooEnvId,
+      el: "#twikoo",
+    });
+  };
+
+  const updateTwikoo = () => {
+    const wrapper = document.getElementById("twrapper");
+    const comment = document.getElementById("twikoo");
+    if (wrapper && comment) {
+      wrapper.removeChild(comment);
     }
-
-    const updateTwikoo = () => {
-        const wrapper = document.getElementById('twrapper')
-        const comment = document.getElementById('twikoo')
-        if (wrapper && comment) {
-            wrapper.removeChild(comment)
-        }
-        const newComment = document.createElement('div')
-        newComment.id = 'twikoo'
-        if (wrapper) {
-            wrapper.appendChild(newComment)
-        }
-        initTwikoo()
+    const newComment = document.createElement("div");
+    newComment.id = "twikoo";
+    if (wrapper) {
+      wrapper.appendChild(newComment);
     }
+    initTwikoo();
+  };
 
-    useEffect(() => {
-        initTwikoo()
-        // 切换 post 页面时，更新 twikoo
-        router.events.on('routeChangeComplete', updateTwikoo)
-        return () => {
-            router.events.off('routeChangeComplete', updateTwikoo)
-        }
-    })
+  useEffect(() => {
+    initTwikoo();
+    // 切换 post 页面时，更新 twikoo
+    router.events.on("routeChangeComplete", updateTwikoo);
+    return () => {
+      router.events.off("routeChangeComplete", updateTwikoo);
+    };
+  });
 
-    return <div id='twrapper'>
-        <div id='twikoo'></div>
-    </div> 
-}
+  return (
+    <div id="twrapper">
+      <div id="twikoo"></div>
+    </div>
+  );
+};
 
-export default TwikooComponent
+export default TwikooComponent;
