@@ -19,6 +19,7 @@ module.exports = withPlaiceholder({
   },
   images: {
     domains: [
+      "images.unsplash.com",
       "www.anzifan.com",
       "s9lhotbvn.hb-bkt.clouddn.com",
       "static.anzifan.com",
