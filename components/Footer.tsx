@@ -127,10 +127,10 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  苏ICP备 2020060340 号
+                  京ICP备 2024060815 号
                 </a>
               </span>
-              <span>
+              {/* <span>
                 <a
                   className="hover:underline hover:text-true-gray-400"
                   dark="text-true-gray-700 hover:text-true-gray-400"
@@ -140,7 +140,7 @@ const Footer = () => {
                 >
                   苏公网安备 32011202000528 号
                 </a>
-              </span>
+              </span> */}
             </p>
           </section>
         </div>
