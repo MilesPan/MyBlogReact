@@ -43,6 +43,7 @@ import readingTime from "reading-time";
 import PostSeo from "../../components/PostSeo";
 import { useRouter } from "next/router";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
+import Micro from "../Micro";
 
 const PostPage: NextPage<{
   page: Post;
@@ -72,6 +73,7 @@ const PostPage: NextPage<{
 
   return (
     <>
+      <Micro />
       <PostSeo
         date={page.date}
         description={page.excerpt}
