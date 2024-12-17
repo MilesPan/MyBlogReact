@@ -2,8 +2,7 @@ import { Client } from "@notionhq/client";
 import { Post } from "./types";
 
 const notion = new Client({ auth: process.env.NOTION_KEY });
-const databaseId =
-  process.env.NOTION_DATABASE_ID || "64d75f4114634389b51e4944172bddc7";
+const databaseId = process.env.NOTION_DATABASE_ID;
 
 export const getDatabase = async (slug?: string) => {
   // TODO: Preview mode support in future

@@ -6,7 +6,7 @@ const Micro = () => {
   const [startPos, setStartPos] = useState({ x: 0, y: 0 });
   const [microRect, setMicroRect] = useState({ width: 0, height: 0 });
   const microRef = useRef<HTMLDivElement | null>(null);
-  const onMouseDown = (e) => {
+  const onMouseDown = (e: React.MouseEvent<HTMLDivElement>) => {
     setIsDragging(true);
     setStartPos({
       x: e.clientX - position.left,
@@ -14,7 +14,7 @@ const Micro = () => {
     });
   };
 
-  const onMouseMove = useCallback((e) => {
+  const onMouseMove = useCallback((e: MouseEvent) => {
     if (isDragging) {
       let newX = e.clientX - startPos.x;
       let newY = e.clientY - startPos.y;
@@ -46,7 +46,6 @@ const Micro = () => {
         left: newX,
         top: newY,
       });
-      console.log(newX, newY);
     }
   }, [isDragging,position]);
 

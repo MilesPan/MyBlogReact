@@ -105,7 +105,7 @@ dependencies:
     specifier: ^1.6.0
     version: 1.6.0
   sharp:
-    specifier: ^0.30.5
+    specifier: ^0.30.7
     version: 0.30.7
   swr:
     specifier: ^1.1.2
@@ -2367,6 +2367,7 @@ packages:
 
   /acorn-import-assertions@1.9.0(acorn@8.11.3):
     resolution: {integrity: sha512-cmMwop9x+8KFhxvKrKfPYmN6/pKTYYHBqLa0DfvVZcKMJWNyWLnaqND7dx/qn66R7ewM1UX5XMaDVP5wlVTaVA==}
+    deprecated: package has been renamed to acorn-import-attributes
     peerDependencies:
       acorn: ^8
     dependencies:
