@@ -5,8 +5,10 @@ import { Fragment } from 'react'
 
 const ThemeSwitch = () => {
     const [mounted, setMounted] = useState(false)
-    const { theme, setTheme } = useTheme()
-
+    const { theme, setTheme, resolvedTheme } = useTheme()
+    useEffect(() => {
+        document.documentElement.setAttribute('data-theme', resolvedTheme || 'light')
+    }, [resolvedTheme])
     // useEffect only runs on the client, so now we can safely show the UI
     useEffect(() => {
         setMounted(true)

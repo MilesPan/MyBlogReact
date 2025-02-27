@@ -1,6 +1,5 @@
 import { defineConfig } from 'windicss/helpers'
 import defaultTheme from 'windicss/defaultTheme'
-
 const plugin = require('windicss/plugin')
 
 export default defineConfig({
@@ -86,5 +85,6 @@ export default defineConfig({
     require('windicss/plugin/line-clamp'),
     require('windicss/plugin/aspect-ratio'),
     require('windicss/plugin/scroll-snap'),
+    require('daisyui')
   ],
 })

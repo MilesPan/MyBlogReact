@@ -4,6 +4,8 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 
 import "windi.css";
 import "../styles/globals.css";
+import "../styles/transition.css";
+import "../styles/robot.css";
 import type { AppProps } from "next/app";
 import BlogLayout from "../components/layout/BlogLayout";
 import Head from "next/head";

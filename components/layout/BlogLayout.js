@@ -1,5 +1,6 @@
 import Navbar from '../Navbar'
 import Footer from '../Footer'
+import Robot from '../Robot'
 import { cloneElement, useState } from 'react'
 
 export default function BlogLayout({ children }) {
@@ -7,6 +8,7 @@ export default function BlogLayout({ children }) {
     <>
       <div className="bg-true-gray-50" dark="bg-black">
         <Navbar />
+        <Robot />
         <main>{children}</main>
         <div className="mt-auto">
           <Footer />
@@ -21,6 +23,7 @@ export function BlogLayoutPure({ children }) {
     <>
       <div className="flex flex-col justify-start min-h-screen bg-white" dark="bg-black">
         <Navbar />
+        <Robot />
         <main>{children}</main>
         <div className="mt-auto">
           <Footer />
@@ -36,7 +39,8 @@ export function BlogLayoutWhite({ children }) {
   return (
     <>
       <div className="min-h-screen bg-white" dark="bg-gradient-to-b from-true-gray-900 to-black">
-        <Navbar toc={toc} />
+        <Navbar otoc={toc} />
+        <Robot />
         <main>{tocChild}</main>
         <Footer />
       </div>

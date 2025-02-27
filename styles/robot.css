@@ -1,0 +1,36 @@
+.resize-handle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 16px;
+  height: 16px;
+  cursor: se-resize;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.chat-window:hover .resize-handle {
+  opacity: 0.5;
+}
+
+.resize-handle:hover {
+  opacity: 1 !important;
+}
+
+/* 添加性能优化相关样式 */
+.will-change-width-height {
+  will-change: width, height;
+}
+
+/* 调整大小时禁用文本选择 */
+body.resizing {
+  user-select: none;
+  cursor: se-resize;
+}
+
+/* 调整大小时禁用过渡效果，提高性能 */
+body.resizing .transition-all,
+body.resizing .transition-colors,
+body.resizing .transition-opacity {
+  transition: none !important;
+}
