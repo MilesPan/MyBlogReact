@@ -45,7 +45,7 @@ const Robot = () => {
         ) : (
           <div
             key="robot"
-            className={`md:(w-[40px] h-[40px])  border-2 border-green-500 bg-gray-100 rounded-full transition-opacity duration-300 ${
+            className={`md:(w-[40px] h-[40px])  border-2 border-green-500 dark:bg-sky-700 bg-gray-100 rounded-full transition-opacity duration-300 ${
               isOpen ? "opacity-0" : "opacity-100"
             }`}
             data-aos="fade-in"

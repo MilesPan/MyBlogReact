@@ -27,6 +27,7 @@
     "@types/gtag.js": "^0.0.10",
     "@types/react-chartjs-2": "^2.5.7",
     "@types/react-transition-group": "^4.4.12",
+    "ahooks": "^3.8.4",
     "aos": "^2.3.4",
     "chart.js": "^3.7.1",
     "chartjs-plugin-gradient": "^0.5.0",
