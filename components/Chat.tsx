@@ -34,10 +34,9 @@ const Chat = ({
   } = useChat();
   const chatContainerRef = useRef<HTMLDivElement>(null);
   const messagesContainerRef = useRef<HTMLDivElement>(null);
-  const { resolvedTheme } = useTheme();
   const { size, handleResizeStart } = useResize(
     chatContainerRef,
-    { width: 700, height: 700 },
+    { width: 700, height: 600 },
     afterResize
   );
 
