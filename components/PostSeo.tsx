@@ -23,7 +23,7 @@ const PostSeo: FC<PostSeoProps> = ({
 }) => {
     const publishedAt = new Date(date).toISOString();
     const featuredImage = {
-        url: image ? `${image}` : `${me.site}/static/images/og.png`,
+        url: image ? `${image}` : `${me.site}/blog/static/images/og.png`,
         alt: title,
     }
     return (

@@ -26,7 +26,7 @@ export const WidgetMeSmall: FC = () => {
                   className="rounded-2xl overflow-hidden"
                   layout="fill"
                   objectFit="cover"
-                  src="/static/images/portrait.png"
+                  src="/blog/static/images/portrait.png"
                   alt="Portrait"
                   placeholder="blur"
                   blurDataURL={portraitPlaceholder}
@@ -86,7 +86,7 @@ export const WidgetMeMedium: FC<{ fix?: boolean }> = ({ fix }) => {
                   className="rounded-full overflow-hidden"
                   layout="fill"
                   objectFit="cover"
-                  src="/static/images/portrait.png"
+                  src="/blog/static/images/portrait.png"
                   alt="Portrait"
                   placeholder="blur"
                   blurDataURL={portraitPlaceholder}

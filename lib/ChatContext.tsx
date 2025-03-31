@@ -72,7 +72,7 @@ export function ChatProvider({ children }: { children: React.ReactNode }) {
         });
       }
 
-      const response = await fetch('/api/chat', {
+      const response = await fetch('/blog/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -1,0 +1,151 @@
+Date : 2025-03-31 18:07:57
+Directory : /Users/apple/code/MyBlogReact
+Total : 93 files,  24079 codes, 237 comments, 2408 blanks, all 26724 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          2 |     11,607 |          0 |          1 |     11,608 |
+| YAML               |          2 |      6,662 |          0 |      1,839 |      8,501 |
+| TypeScript JSX     |         44 |      4,546 |        165 |        384 |      5,095 |
+| TypeScript         |         18 |        720 |         53 |         98 |        871 |
+| JavaScript         |          9 |        349 |         15 |         42 |        406 |
+| CSS                |          3 |        111 |          4 |         21 |        136 |
+| XML                |         11 |         41 |          0 |         11 |         52 |
+| JSON with Comments |          2 |         29 |          0 |          2 |         31 |
+| Docker             |          1 |         10 |          0 |          7 |         17 |
+| Markdown           |          1 |          4 |          0 |          3 |          7 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                      | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                         |         93 |     24,079 |        237 |      2,408 |     26,724 |
+| . (Files)                                                                 |         13 |     18,443 |         11 |      1,858 |     20,312 |
+| assets                                                                    |         10 |         38 |          0 |         10 |         48 |
+| components                                                                |         35 |      2,908 |        135 |        245 |      3,288 |
+| components (Files)                                                        |         19 |      1,663 |         73 |        145 |      1,881 |
+| components/comments                                                       |          2 |         61 |          1 |          9 |         71 |
+| components/layout                                                         |          3 |         84 |          0 |          5 |         89 |
+| components/notionBlocks                                                   |          7 |        402 |         24 |         47 |        473 |
+| components/utility                                                        |          2 |         36 |          5 |          2 |         43 |
+| components/widget                                                         |          2 |        662 |         32 |         37 |        731 |
+| config                                                                    |          3 |        164 |          0 |          7 |        171 |
+| lib                                                                       |         10 |        606 |         48 |         93 |        747 |
+| pages                                                                     |         18 |      1,806 |         39 |        173 |      2,018 |
+| pages (Files)                                                             |          9 |      1,089 |         14 |         76 |      1,179 |
+| pages/api                                                                 |          6 |        220 |         13 |         49 |        282 |
+| pages/api/bookmark                                                        |          1 |         10 |          2 |          4 |         16 |
+| pages/api/chat                                                            |          1 |         68 |          3 |         11 |         82 |
+| pages/api/page-views                                                      |          2 |         71 |          4 |         17 |         92 |
+| pages/api/users-views                                                     |          2 |         71 |          4 |         17 |         92 |
+| pages/category                                                            |          1 |         58 |          1 |         13 |         72 |
+| pages/post                                                                |          1 |        381 |         10 |         22 |        413 |
+| pages/tag                                                                 |          1 |         58 |          1 |         13 |         72 |
+| public                                                                    |          1 |          3 |          0 |          1 |          4 |
+| public/static                                                             |          1 |          3 |          0 |          1 |          4 |
+| public/static/images                                                      |          1 |          3 |          0 |          1 |          4 |
+| styles                                                                    |          3 |        111 |          4 |         21 |        136 |
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                  | language           | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| /Users/apple/code/MyBlogReact/.eslintrc.json                              | JSON with Comments |          9 |          0 |          1 |         10 |
+| /Users/apple/code/MyBlogReact/Dockerfile                                  | Docker             |         10 |          0 |          7 |         17 |
+| /Users/apple/code/MyBlogReact/README.md                                   | Markdown           |          4 |          0 |          3 |          7 |
+| /Users/apple/code/MyBlogReact/assets/categories.svg                       | XML                |          4 |          0 |          1 |          5 |
+| /Users/apple/code/MyBlogReact/assets/friends.svg                          | XML                |          5 |          0 |          1 |          6 |
+| /Users/apple/code/MyBlogReact/assets/me.svg                               | XML                |          4 |          0 |          1 |          5 |
+| /Users/apple/code/MyBlogReact/assets/menu.svg                             | XML                |          3 |          0 |          1 |          4 |
+| /Users/apple/code/MyBlogReact/assets/sspai.svg                            | XML                |          3 |          0 |          1 |          4 |
+| /Users/apple/code/MyBlogReact/assets/tags.svg                             | XML                |          5 |          0 |          1 |          6 |
+| /Users/apple/code/MyBlogReact/assets/toc.svg                              | XML                |          3 |          0 |          1 |          4 |
+| /Users/apple/code/MyBlogReact/assets/toc_fill.svg                         | XML                |          3 |          0 |          1 |          4 |
+| /Users/apple/code/MyBlogReact/assets/toggle.svg                           | XML                |          5 |          0 |          1 |          6 |
+| /Users/apple/code/MyBlogReact/assets/zhihu.svg                            | XML                |          3 |          0 |          1 |          4 |
+| /Users/apple/code/MyBlogReact/components/Chat.tsx                         | TypeScript JSX     |        150 |          3 |          8 |        161 |
+| /Users/apple/code/MyBlogReact/components/Comment.tsx                      | TypeScript JSX     |         81 |          0 |          8 |         89 |
+| /Users/apple/code/MyBlogReact/components/Footer.tsx                       | TypeScript JSX     |        138 |         12 |          3 |        153 |
+| /Users/apple/code/MyBlogReact/components/FrontMessage.tsx                 | TypeScript JSX     |         76 |          0 |          9 |         85 |
+| /Users/apple/code/MyBlogReact/components/Licensing.tsx                    | TypeScript JSX     |        115 |          0 |          7 |        122 |
+| /Users/apple/code/MyBlogReact/components/Message.tsx                      | TypeScript JSX     |         52 |          0 |          6 |         58 |
+| /Users/apple/code/MyBlogReact/components/Micro.tsx                        | TypeScript JSX     |         93 |         23 |         25 |        141 |
+| /Users/apple/code/MyBlogReact/components/Navbar.tsx                       | TypeScript JSX     |        173 |          2 |          7 |        182 |
+| /Users/apple/code/MyBlogReact/components/NotionBlockRenderer.tsx          | TypeScript JSX     |        133 |          8 |         21 |        162 |
+| /Users/apple/code/MyBlogReact/components/Pagination.tsx                   | TypeScript JSX     |         51 |          6 |          5 |         62 |
+| /Users/apple/code/MyBlogReact/components/PostList.tsx                     | TypeScript JSX     |        190 |         13 |          8 |        211 |
+| /Users/apple/code/MyBlogReact/components/PostMore.tsx                     | TypeScript JSX     |         53 |          3 |          2 |         58 |
+| /Users/apple/code/MyBlogReact/components/PostSeo.tsx                      | TypeScript JSX     |         59 |          0 |          3 |         62 |
+| /Users/apple/code/MyBlogReact/components/PostToc.tsx                      | TypeScript JSX     |         66 |          0 |          8 |         74 |
+| /Users/apple/code/MyBlogReact/components/Robot.tsx                        | TypeScript JSX     |         62 |          0 |          9 |         71 |
+| /Users/apple/code/MyBlogReact/components/Share.tsx                        | TypeScript JSX     |         97 |          0 |          5 |        102 |
+| /Users/apple/code/MyBlogReact/components/ThemeSwitch.tsx                  | TypeScript JSX     |         35 |          1 |          5 |         41 |
+| /Users/apple/code/MyBlogReact/components/ThemedImage.tsx                  | TypeScript JSX     |         38 |          2 |          5 |         45 |
+| /Users/apple/code/MyBlogReact/components/comments/GiscusComponent.tsx     | TypeScript JSX     |         20 |          0 |          3 |         23 |
+| /Users/apple/code/MyBlogReact/components/comments/TwikooComponent.tsx     | TypeScript JSX     |         41 |          1 |          6 |         48 |
+| /Users/apple/code/MyBlogReact/components/layout/BlogLayout.js             | JavaScript         |         46 |          0 |          3 |         49 |
+| /Users/apple/code/MyBlogReact/components/layout/ContentLayout.js          | JavaScript         |         20 |          0 |          1 |         21 |
+| /Users/apple/code/MyBlogReact/components/layout/ListLayout.js             | JavaScript         |         18 |          0 |          1 |         19 |
+| /Users/apple/code/MyBlogReact/components/markdownText.ts                  | TypeScript         |          1 |          0 |          1 |          2 |
+| /Users/apple/code/MyBlogReact/components/notionBlocks/NotionBookmark.tsx  | TypeScript JSX     |        110 |          3 |         10 |        123 |
+| /Users/apple/code/MyBlogReact/components/notionBlocks/NotionCallout.tsx   | TypeScript JSX     |         43 |          3 |          7 |         53 |
+| /Users/apple/code/MyBlogReact/components/notionBlocks/NotionCode.tsx      | TypeScript JSX     |         49 |         15 |         11 |         75 |
+| /Users/apple/code/MyBlogReact/components/notionBlocks/NotionImage.tsx     | TypeScript JSX     |         72 |          1 |          6 |         79 |
+| /Users/apple/code/MyBlogReact/components/notionBlocks/NotionQuote.tsx     | TypeScript JSX     |         82 |          2 |          6 |         90 |
+| /Users/apple/code/MyBlogReact/components/notionBlocks/NotionTextBlock.tsx | TypeScript JSX     |         34 |          0 |          4 |         38 |
+| /Users/apple/code/MyBlogReact/components/notionBlocks/NotionVideo.tsx     | TypeScript JSX     |         12 |          0 |          3 |         15 |
+| /Users/apple/code/MyBlogReact/components/utility/Breakpoints.tsx          | TypeScript JSX     |          9 |          1 |          1 |         11 |
+| /Users/apple/code/MyBlogReact/components/utility/Tooltip.tsx              | TypeScript JSX     |         27 |          4 |          1 |         32 |
+| /Users/apple/code/MyBlogReact/components/widget/WidgetMe.tsx              | TypeScript JSX     |        132 |          4 |          4 |        140 |
+| /Users/apple/code/MyBlogReact/components/widget/WidgetOverview.tsx        | TypeScript JSX     |        530 |         28 |         33 |        591 |
+| /Users/apple/code/MyBlogReact/config/friends.ts                           | TypeScript         |         12 |          0 |          2 |         14 |
+| /Users/apple/code/MyBlogReact/config/links.ts                             | TypeScript         |         50 |          0 |          4 |         54 |
+| /Users/apple/code/MyBlogReact/config/me.ts                                | TypeScript         |        102 |          0 |          1 |        103 |
+| /Users/apple/code/MyBlogReact/docker-compose.yml                          | YAML               |         12 |          0 |          1 |         13 |
+| /Users/apple/code/MyBlogReact/index.d.ts                                  | TypeScript         |          4 |          0 |          0 |          4 |
+| /Users/apple/code/MyBlogReact/lib/ChatContext.tsx                         | TypeScript JSX     |        137 |          4 |         21 |        162 |
+| /Users/apple/code/MyBlogReact/lib/colors.ts                               | TypeScript         |        107 |         10 |          2 |        119 |
+| /Users/apple/code/MyBlogReact/lib/getMediaCtx.ts                          | TypeScript         |          7 |          0 |          2 |          9 |
+| /Users/apple/code/MyBlogReact/lib/gtag.ts                                 | TypeScript         |         14 |          0 |          2 |         16 |
+| /Users/apple/code/MyBlogReact/lib/notion.ts                               | TypeScript         |        122 |          8 |         18 |        148 |
+| /Users/apple/code/MyBlogReact/lib/probeImageSize.ts                       | TypeScript         |          6 |          0 |          2 |          8 |
+| /Users/apple/code/MyBlogReact/lib/types.ts                                | TypeScript         |         21 |          0 |          1 |         22 |
+| /Users/apple/code/MyBlogReact/lib/useAutoScroll.ts                        | TypeScript         |         59 |          4 |         14 |         77 |
+| /Users/apple/code/MyBlogReact/lib/useResize.ts                            | TypeScript         |         89 |         15 |         20 |        124 |
+| /Users/apple/code/MyBlogReact/lib/useTextareaShortcuts.ts                 | TypeScript         |         44 |          7 |         11 |         62 |
+| /Users/apple/code/MyBlogReact/next-env.d.ts                               | TypeScript         |          0 |          4 |          2 |          6 |
+| /Users/apple/code/MyBlogReact/next.config.js                              | JavaScript         |         34 |          7 |          2 |         43 |
+| /Users/apple/code/MyBlogReact/package-lock.json                           | JSON               |     11,533 |          0 |          0 |     11,533 |
+| /Users/apple/code/MyBlogReact/package.json                                | JSON               |         74 |          0 |          1 |         75 |
+| /Users/apple/code/MyBlogReact/pages/404_test.tsx                          | TypeScript JSX     |         11 |          0 |          1 |         12 |
+| /Users/apple/code/MyBlogReact/pages/_app.tsx                              | TypeScript JSX     |         88 |          0 |         12 |        100 |
+| /Users/apple/code/MyBlogReact/pages/_document.tsx                         | TypeScript JSX     |         41 |          1 |          2 |         44 |
+| /Users/apple/code/MyBlogReact/pages/api/bookmark/[url].ts                 | TypeScript         |         10 |          2 |          4 |         16 |
+| /Users/apple/code/MyBlogReact/pages/api/chat/index.ts                     | TypeScript         |         68 |          3 |         11 |         82 |
+| /Users/apple/code/MyBlogReact/pages/api/page-views/all.js                 | JavaScript         |         31 |          2 |          9 |         42 |
+| /Users/apple/code/MyBlogReact/pages/api/page-views/index.js               | JavaScript         |         40 |          2 |          8 |         50 |
+| /Users/apple/code/MyBlogReact/pages/api/users-views/all.js                | JavaScript         |         31 |          2 |          9 |         42 |
+| /Users/apple/code/MyBlogReact/pages/api/users-views/index.js              | JavaScript         |         40 |          2 |          8 |         50 |
+| /Users/apple/code/MyBlogReact/pages/archive.tsx                           | TypeScript JSX     |         80 |          5 |          7 |         92 |
+| /Users/apple/code/MyBlogReact/pages/categories.tsx                        | TypeScript JSX     |         67 |          2 |         11 |         80 |
+| /Users/apple/code/MyBlogReact/pages/category/[cate].tsx                   | TypeScript JSX     |         58 |          1 |         13 |         72 |
+| /Users/apple/code/MyBlogReact/pages/friends.tsx                           | TypeScript JSX     |        110 |          1 |          8 |        119 |
+| /Users/apple/code/MyBlogReact/pages/index.tsx                             | TypeScript JSX     |         77 |          0 |          8 |         85 |
+| /Users/apple/code/MyBlogReact/pages/me.tsx                                | TypeScript JSX     |        553 |          2 |         16 |        571 |
+| /Users/apple/code/MyBlogReact/pages/post/[slug].tsx                       | TypeScript JSX     |        381 |         10 |         22 |        413 |
+| /Users/apple/code/MyBlogReact/pages/tag/[tag].tsx                         | TypeScript JSX     |         58 |          1 |         13 |         72 |
+| /Users/apple/code/MyBlogReact/pages/tags.tsx                              | TypeScript JSX     |         62 |          3 |         11 |         76 |
+| /Users/apple/code/MyBlogReact/pnpm-lock.yaml                              | YAML               |      6,650 |          0 |      1,838 |      8,488 |
+| /Users/apple/code/MyBlogReact/public/static/images/corner.svg             | XML                |          3 |          0 |          1 |          4 |
+| /Users/apple/code/MyBlogReact/shims.d.ts                                  | TypeScript         |          4 |          0 |          1 |          5 |
+| /Users/apple/code/MyBlogReact/styles/globals.css                          | CSS                |         69 |          1 |         11 |         81 |
+| /Users/apple/code/MyBlogReact/styles/robot.css                            | CSS                |         28 |          3 |          6 |         37 |
+| /Users/apple/code/MyBlogReact/styles/transition.css                       | CSS                |         14 |          0 |          4 |         18 |
+| /Users/apple/code/MyBlogReact/tsconfig.json                               | JSON with Comments |         20 |          0 |          1 |         21 |
+| /Users/apple/code/MyBlogReact/windi.config.js                             | JavaScript         |         89 |          0 |          1 |         90 |
+| Total                                                                     |                    |     24,079 |        237 |      2,408 |     26,724 |
++---------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

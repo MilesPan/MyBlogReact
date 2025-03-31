@@ -26,7 +26,7 @@ const Home: NextPage<{ posts: Post[] }> = ({ posts }) => {
   const { locale } = router;
   const description = "三两三的个人博客";
   const featuredImage = {
-    url: `${me.site}/static/images/og.png`,
+    url: `${me.site}/blog/static/images/og.png`,
     alt: description,
   };
   return (

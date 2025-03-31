@@ -9,6 +9,7 @@ const { withPlaiceholder } = require("@plaiceholder/next");
 // });
 
 module.exports = withPlaiceholder({
+  basePath: "/blog",
   webpack(config) {
     config.plugins.push(new WindiCSSWebpackPlugin());
     config.module.rules.push({

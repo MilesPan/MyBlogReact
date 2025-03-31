@@ -35,7 +35,7 @@ const Footer = () => {
               <a>
                 <Image
                   className=""
-                  src="/static/images/favicon.png"
+                  src="/blog/static/images/favicon.png"
                   alt="logo"
                   width="20px"
                   height="20px"

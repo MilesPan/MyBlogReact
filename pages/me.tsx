@@ -42,10 +42,10 @@ const LocationMap = () => {
   let src;
   switch (resolvedTheme) {
     case "light":
-      src = "/static/images/map_light.png";
+      src = "/blog/static/images/map_light.png";
       break;
     case "dark":
-      src = "/static/images/map_dark.png";
+      src = "/blog/static/images/map_dark.png";
       break;
     default:
       src = emptyImage;
@@ -418,7 +418,7 @@ const ProjectHero = () => {
               </div>
               <div className="relative -mr-[109px] -ml-[2px] -mb-[117px] w-[274px] h-[410px] md:(-mr-[149px] -ml-[4px] -mb-[86px] w-[376px] h-[558px]) lg:(-mr-[200px] -ml-[2px] -mb-[100px] w-[504px] h-[752px])">
                 <Image
-                  src="/static/images/iphone_case_shadow.png"
+                  src="/blog/static/images/iphone_case_shadow.png"
                   alt={project.name}
                   layout="fill"
                   objectFit="contain"
@@ -477,7 +477,7 @@ const Project = () => {
               <div className="absolute h-150 w-99.5 -top-0.9 left-7.9 md:left-4.2 lg:left-13.7">
                 <Image
                   className="absolute z-10 top-4 left-10"
-                  src="/static/images/iphone_case_shadow.png"
+                  src="/blog/static/images/iphone_case_shadow.png"
                   alt={project.name}
                   layout="fill"
                   objectFit="contain"
@@ -543,7 +543,7 @@ const Me: NextPage<{ posts: Post[] }> = ({ posts }) => {
         <div data-aos="fade-up" className="flex flex-col items-center messages">
           <div className="relative my-4 overflow-hidden rounded-full aspect-square h-30 xs:h-35 md:h-40 xs:my-8 md:mt-10">
             <Image
-              src="/static/images/portrait.png"
+              src="/blog/static/images/portrait.png"
               layout="fill"
               objectFit="cover"
               alt="Portrait"

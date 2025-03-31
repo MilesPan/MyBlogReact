@@ -33,7 +33,7 @@
     "chartjs-plugin-gradient": "^0.5.0",
     "daisyui": "^4.12.24",
     "googleapis": "^100.0.0",
-    "immutable": "link:@types/swr/immutable",
+    "immutable": "^5.1.1",
     "moment": "^2.29.2",
     "next": "12.1.6",
     "next-pwa": "^5.5.4",

@@ -50,7 +50,7 @@ export const me = {
       time: "2021-2022",
       degree: "MS, Computer Software Engineering",
       color: "red",
-      logo: "/static/images/neu.png",
+      logo: "/blog/static/images/neu.png",
     },
   ],
   projects: [
@@ -60,13 +60,13 @@ export const me = {
         "A GitHub Star Management App, based on SwiftUI and Combine.",
       tip: "Coming Soon on App Store",
       images: [
-        "/static/images/Astraios/4.png",
-        "/static/images/Astraios/3.png",
-        "/static/images/Astraios/2.png",
-        "/static/images/Astraios/5.png",
-        "/static/images/Astraios/7.png",
+        "/blog/static/images/Astraios/4.png",
+        "/blog/static/images/Astraios/3.png",
+        "/blog/static/images/Astraios/2.png",
+        "/blog/static/images/Astraios/5.png",
+        "/blog/static/images/Astraios/7.png",
       ],
-      icon: "/static/images/Astraios/astraios.png",
+      icon: "/blog/static/images/Astraios/astraios.png",
     },
     {
       name: "Pokémon Recommender",
@@ -74,7 +74,7 @@ export const me = {
         "A iOS Pokédex with an original recommendation algorithm that considers multiple factors",
       tag: ["Web Crawler", "Database Design", "Recommendation algorithm"],
       video: "/static/videos/pokemon.mp4",
-      icon: "/static/images/pokemon.png",
+      icon: "/blog/static/images/pokemon.png",
     },
   ],
   skills: [
